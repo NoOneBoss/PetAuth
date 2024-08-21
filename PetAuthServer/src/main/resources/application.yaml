@@ -1,0 +1,15 @@
+ktor:
+  application:
+    modules:
+      - me.nooneboss.ApplicationKt.module
+  deployment:
+    port: 8080
+jwt:
+  realm: "PetAuth"
+  secret: "petauthsecrettoken"
+
+db:
+  mongo:
+    user: nooneboss
+    password: admin
+    host: 192.168.188.131
